@@ -1,0 +1,2 @@
+:root{--color-about:red;--color-advantages:green;--color-contacts:#00f;--color-reviews:#0ff;--color-footer:#f0f;--color-gallery:#ff0;--color-hero:tomato;--color-products:silver}.container{width:1200px;margin:0 auto}.hero{color:var(--color-hero)}.products{color:var(--color-products)}.about{color:var(--color-about)}.advantages{color:var(--color-advantages)}.gallery{color:var(--color-gallery)}.reviews{color:var(--color-reviews);font-size:40px}.contacts{color:var(--color-contacts)}.footer{color:var(--color-footer)}
+/*# sourceMappingURL=/ooo-kudriyaviy-kod/src.c692d601.css.map */
