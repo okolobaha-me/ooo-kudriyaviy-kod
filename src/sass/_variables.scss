@@ -9,20 +9,31 @@
   --color-products: silver;
 }
 :root {
+  //шрифты
   --primary-light-text-color: #ffffff;
   --primary-dark-text-color: #000000;
   --secondary-dark-text-color: #907e82;
+  //шрифт в секции контакты
   --secondary-light-text-color: #ffa5ba;
+//надзоголовок.лэйбл
+  --title-label-color: #ffa5ba;
+//красный основной цвет а так же ховер на соц.сетях
   --accent-color: #d41443;
+  //основные фоны
   --first-bg-color: #e5e5e5;
   --secondary-bg-color: #fff5f6;
+  //фон круга в герое
+  --hero-circle-bg-color:#FFA5BA;
+  //фоны в секции продукты 
   --accent-bg-color: #ffb8ca;
   --secondary-accent-bg-color: #f0d1a5;
   --third-accent-bg-color: #c2e297;
-  --footer-elements-bg-color: #ffa5ba;
-  --hover-btn-color-dark: #c7133e;
+  //фон соц.сетей
+  --social-bg-color:#FEA5BB;
+  //ховер кнопки под вопросом нужно обсуждать 
   --hover-btn-color-light: #ecebeb;
-  --social-icon-bg-color: #fea5bb;
+  //фон моб.меню
   --menu-bg-color: #e17992;
+  //фон точек в секции отзывы
   --decor-bg-color: #d9d9d9;
 }
