@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+:root {
+  --color-about: red;
+  --color-advantages: green;
+  --color-contacts: blue;
+  --color-reviews: cyan;
+  --color-footer: magenta;
+  --color-gallery: yellow;
+  --color-hero: tomato;
+  --color-products: silver;
+}
+
+:root {
+  --primary-light-text-color: #ffffff;
+  --primary-dark-text-color: #000000;
+  --secondary-dark-text-color: #907e82;
+  --secondary-light-text-color: #ffa5ba;
+  --title-label-color: #ffa5ba;
+  --accent-color: #d41443;
+  --first-bg-color: #e5e5e5;
+  --secondary-bg-color: #fff5f6;
+  --hero-circle-bg-color:#FFA5BA;
+  --accent-bg-color: #ffb8ca;
+  --secondary-accent-bg-color: #f0d1a5;
+  --third-accent-bg-color: #c2e297;
+  --social-bg-color:#FEA5BB;
+  --hover-btn-color-light: #ecebeb;
+  --menu-bg-color: #e17992;
+  --decor-bg-color: #d9d9d9;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  color: var(--color-hero);
+  font-size: smaller;
+}
+
+.products {
+  color: var(--color-products);
+}
+
+.about {
+  color: var(--color-about);
+}
+
+.advantages {
+  color: var(--color-advantages);
+}
+
+.gallery {
+  color: var(--color-gallery);
+}
+
+.reviews {
+  color: var(--color-reviews);
+  font-size: 40px;
+}
+
+.contacts {
+  color: var(--color-contacts);
+}
+
+.footer {
+  color: var(--color-footer);
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */
