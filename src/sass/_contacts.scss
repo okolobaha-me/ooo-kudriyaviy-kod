@@ -1,0 +1,121 @@
+.contacts {
+  padding-top: 43px;
+  padding-bottom: 57px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--third-bg-color) 15%,
+    var(--secondary-bg-color) 15%
+  );
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 79px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 66px;
+    padding-bottom: 83px;
+  }
+}
+.contacts__list {
+  margin-bottom: 54px;
+}
+
+.contacts__item {
+  width: 220px;
+  padding: 43px 20px;
+  margin: 0 auto;
+  background-color: var(--third-bg-color);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+
+  @media screen and (min-width: 768px) {
+    width: 330px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.contacts__label {
+  margin-bottom: 25px;
+  height: 16px;
+  width: 80px;
+  border-radius: 4px;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--primary-light-text-color);
+  background-color: var(--secondary-accent-bg-color);
+
+  .contacts__item:nth-child(2) & {
+    background-color: var(--third-accent-bg-color);
+    width: 130px;
+  }
+}
+.contacts__wrapper {
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: var(--contacts-border-color);
+  }
+}
+
+.contacts__work-time {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.contacts__title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  letter-spacing: 0.04em;
+
+  color: var(--primary-dark-text-color);
+}
+.contacts__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(18 / 12);
+  color: var(--secondary-dark-text-color);
+}
+.contacts__days {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  color: var(--primary-dark-text-color);
+}
+
+.contacts__time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  text-transform: uppercase;
+
+  color: var(--title-label-color);
+}
+.contacts__link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  line-height: calc(18 / 12);
+  color: var(--secondary-dark-text-color);
+}
+
+// .contacts__btns {
+// }
+// .contacts__btn {
+// }
+// .contacts__icon {
+// }
+// @media screen and (min-width: 1200px)
