@@ -1,3 +1,156 @@
 .products {
-  color: var(--color-products);
+  &__list {
+    margin-top: 144px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-left: -12px;
+      margin-right: -12px;
+    }
+  }
+
+  &__thumb {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+
+  &__card {
+    position: relative;
+
+    padding: 161px 53px 41px 53px;
+
+    border-radius: 24px;
+  }
+
+  &__title {
+    position: relative;
+
+    margin-bottom: 66px;
+
+    font-family: Titan One;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--primary-light-text-color);
+
+    @media screen and (min-width: 1200px) {
+      font-size: 30px;
+      line-height: 1.13;
+    }
+  }
+
+  &__title::after {
+    content: '';
+
+    position: absolute;
+    top: 53px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 26px;
+    height: 6px;
+
+    background-image: url(../images/svg/dotes-white.svg);
+
+    @media screen and (min-width: 1200px) {
+      top: 63px;
+    }
+  }
+
+  &__meta {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.52;
+    letter-spacing: 0.04em;
+    color: var(--primary-light-text-color);
+  }
+
+  &__btn {
+    margin-top: 30px;
+    padding: 15px;
+
+    border-radius: 50%;
+    background-color: var(--primary-light-text-color);
+
+    fill: var(--accent-color);
+  }
+}
+
+.products__thumb:nth-child(1) .products__card {
+  background-color: var(--accent-bg-color);
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 249px;
+    height: 252px;
+
+    background-image: url(../images/products/product1-tablet.png);
+    background-size: cover;
+  }
+}
+
+.products__thumb:nth-child(2) .products__card {
+  background-color: var(--secondary-accent-bg-color);
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 249px;
+    height: 252px;
+
+    background-image: url(../images/products/product2-tablet.png);
+    background-size: cover;
+  }
+}
+
+.products__thumb:nth-child(3) .products__card {
+  background-color: var(--third-accent-bg-color);
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: -113px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 249px;
+    height: 252px;
+
+    background-image: url(../images/products/product3-tablet.png);
+    background-size: cover;
+  }
+}
+
+.products__thumb:not(:first-child) .products__card {
+  @media screen and (max-width: 767px) {
+    margin-top: 130px;
+  }
 }
