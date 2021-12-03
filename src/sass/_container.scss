@@ -2,21 +2,15 @@
   padding: 0 20px;
   margin: 0 auto;
 
-  @media screen and (max-width: 479px) {
-    width: 100vw;
-  }
-
   @media screen and (min-width: 480px) {
-    width: 520px;
+    width: 480px;
   }
 
   @media screen and (min-width: 768px) {
-    width: 772px;
-    padding: 0 34px;
+    width: 740px;
   }
 
-  @media screen and (min-width: 1200px) {
-    width: 1280px;
-    padding: 0 115px;
+  @media screen and (min-width: 1280px) {
+    width: 1090px;
   }
 }
