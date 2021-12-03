@@ -1,4 +1,28 @@
 .swiper {
-  width: 600px;
-  height: 300px;
+  max-width: 600px;
+ max-height: 300px;
+}
+.customer_text {
+  font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height:2.58;
+/* or 31px */
+
+text-align: center;
+width: 157px;
+background-image: repeating-linear-gradient( #E1E1E1, #E1E1E1);
+background-size: 1rem 3px;
+background-repeat:repeat-x;
+background-position: left bottom;
+color: #000000;
+&::before {
+content: "";
+display: block;
+position: absolute;
+background-image: url(../images/svg/quotes.svg);
+width: 54px;
+height: 40px;
+}
 }
