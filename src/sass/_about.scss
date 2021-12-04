@@ -1,6 +1,6 @@
 .about {
   padding: 125px 20px 20px 20px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   background-color: var(--secondary-bg-color);
   @media screen and (min-width: 768px) {
@@ -10,11 +10,80 @@
     padding: 125px 117px 20px 112px;
   }
 }
+.about__subtitle {
+  margin-bottom: 15px;
+  font-family: 'Titan one';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title-label-color);
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+.about__title {
+  margin-bottom: 26px;
+  font-family: 'Titan one';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  @media screen and (min-width: 768px) {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 55px;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    line-height: 1.13;
+  }
+}
+
+/*.about__cards-text {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 46px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 340px;
+    margin-left: 15px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 463px;
+    margin-left: 74px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+  }
+}*/
 .about__btn {
+  min-width: 176px;
+  min-height: 44px;
   font-size: 14px;
   line-height: 1.3;
+  background-color: var(--third-bg-color);
+  color: var(--accent-color);
   border: none;
-  min-height: 24px;
   border-radius: 22px;
   padding: 6px 14px;
 
