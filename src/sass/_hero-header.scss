@@ -1,6 +1,9 @@
 .section-hero-header {
+  position: relative;
   padding-top: 6px;
   padding-bottom: 160px;
+
+  background-color: #ffb8ca;
 
   max-width: 480px;
   height: 502px;
@@ -66,6 +69,9 @@
   line-height: 96.5%;
   text-transform: uppercase;
   color: #d41443;
+}
+.hero-contain-image {
+  position: absolute;
 }
 .hero-box-btn {
   & + & {
