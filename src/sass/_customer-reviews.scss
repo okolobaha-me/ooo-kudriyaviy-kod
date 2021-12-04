@@ -1,28 +1,75 @@
-.swiper {
-  max-width: 600px;
- max-height: 300px;
-}
-.customer_text {
-  font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height:2.58;
-/* or 31px */
+.customer{
+  background-color: #fff;
+    text-align: center;
+    padding: 40px 20px 128px;
+    max-width: 480px;
 
-text-align: center;
-width: 157px;
-background-image: repeating-linear-gradient( #E1E1E1, #E1E1E1);
-background-size: 1rem 3px;
-background-repeat:repeat-x;
-background-position: left bottom;
-color: #000000;
-&::before {
-content: "";
-display: block;
-position: absolute;
-background-image: url(../images/svg/quotes.svg);
-width: 54px;
-height: 40px;
+
 }
+
+
+.customer__foto{
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 29px;
+}
+.customer__reviews{
+
+  background-color: #fafafa;
+  padding: 43px 66px 20px 57px;
+  margin-bottom: 52px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.customer__text{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  z-index:1;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.58;
+  letter-spacing:0.03em;
+  color: #000;
+  background-image: repeating-linear-gradient(
+180deg
+,transparent,transparent 29px,#e1e1e1 30px);
+&::before{content: "";
+position: absolute;
+display: inline-block;
+width: 54px;
+height: 48px;
+background-repeat: no-repeat;
+background-image:url(/images/svg/quotes.svg);
+transform: translate(-50%,-30%);}
+&::after{
+  position: absolute;
+  display: block;
+  width:32px;
+  height:4px;
+    content: "";
+    background-image: url(/images/svg/dotes-red.svg);
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,56px);}
+    margin-bottom: 18px;
+}
+.customer__address{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  
+  color: #000000;
+}
+.swiper-pagination {
+  text-decoration: none;
+  color:#D9D9D9;
 }
