@@ -114,8 +114,33 @@
 
 // .contacts__btns {
 // }
-// .contacts__btn {
-// }
-// .contacts__icon {
-// }
-// @media screen and (min-width: 1200px)
+
+.contacts__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  min-width: 161px;
+
+  border-radius: 22px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(21 / 16);
+}
+
+.contacts__btn--white {
+  color: var(--accent-color);
+  background-color: var(--third-bg-color);
+}
+
+.contacts__btn--red {
+  color: var(--primary-light-text-color);
+  background-color: var(--accent-color);
+}
+
+.contacts__icon {
+  width: 4px;
+  height: 8px;
+  margin-left: 10px;
+}
