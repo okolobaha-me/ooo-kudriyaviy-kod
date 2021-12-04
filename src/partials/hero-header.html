@@ -1,4 +1,4 @@
-<section class="hero-header">
+<section class="section-hero-header">
   <div class="container">
 
     <!------------header-------------->
@@ -29,12 +29,18 @@
         
       </nav>
       <button type="button" class="header-btn">Buy now</button>
+       <!--Start mobile menu-->
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-icon" width="20" height="12">
+            <use href="../src/images/svg/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
     </header>
 
       <!------------hero--------------->
 
     <div class="hero-container">
-      <h1 class="hero-title">ice cream made with <span class="logo-item">passion</span> </h1>
+      <h1 class="hero-title">ice cream<br>made with<br><span class="title-item">passion</span> </h1>
       <div class="hero-box-btn">
         <button type="button" class="hero-btn-dark">Products</button>
         <button type="button" class="hero-btn-light">How it’s made?</button>
@@ -49,16 +55,19 @@
           <p class="hero-description-text">food trucks</p>
         </li>
       </ul>
-      <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-      <a href="" class="hero-link">
-        <svg class="link-icon" width="26" height="26">
-          <use href="../src/images/svg/symbol-defs.svg#icon-arrow-right" ></use>
-        </svg>
-      </a>
+      <div class="hero-exposition-box">
+        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <a href="" class="hero-link">
+          <svg class="link-icon" width="26" height="26">
+            <use href="../src/images/svg/symbol-defs.svg#icon-arrow-right" ></use>
+          </svg>
+        </a>
+      </div>
+      
     </div>
   </div>
   <div class="hero-decor-box">
-    <img src="../src/images/hero-header/milk-tablet.png" alt="milk">
-    <img src="../src/images/hero-header/girl-tablet.png" alt="milk">
+    <img class="hero-decor-image-milk" src="../src/images/hero-header/milk-tablet.png" alt="milk">
+    <img class="hero-decor-image-girl" src="../src/images/hero-header/girl-tablet.png" alt="milk">
   </div>
 </section>
