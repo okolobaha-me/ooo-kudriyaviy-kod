@@ -1,0 +1,42 @@
+// Будет две кнопки красная и белая
+// Размер в разных секциях и псевдо > где нужно добавлюем
+
+.button-red {
+  color: var(--primary-light-text-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 1.25;
+
+  cursor: pointer;
+  border: none;
+
+  min-height: 24px;
+  border-radius: 22px;
+  padding: 6px 14px;
+
+  &:hover,
+  &:focus {
+    background-color: #c7133e;
+  }
+}
+.button-white {
+  color: var(--accent-color);
+  background-color: var(--primary-light-text-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 1.25;
+
+  border: none;
+
+  min-height: 24px;
+  border-radius: 22px;
+  padding: 6px 14px;
+
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+}
