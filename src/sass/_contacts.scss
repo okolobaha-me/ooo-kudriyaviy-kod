@@ -82,9 +82,7 @@
 
 .contacts__title {
   margin-bottom: 10px;
-
   line-height: calc(22 / 12);
-
   color: var(--primary-dark-text-color);
 }
 
@@ -141,12 +139,11 @@
 }
 
 .contacts__icon {
-  width: 7px;
+  width: 6px;
   height: 10px;
   margin-left: 10px;
 
-  fill: currentColor;
-  
+  fill: currentColor; 
 }
 
 
