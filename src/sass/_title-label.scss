@@ -1,0 +1,21 @@
+.title-label {
+  margin-bottom: 15px;
+
+  font-family: Titan One;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--title-label-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.14;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}

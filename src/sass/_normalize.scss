@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  font-family: 'DM Sans', sans-serif;
 }
 
 *,
@@ -19,7 +21,8 @@ p {
   margin: 0;
 }
 
-img {
+img,
+svg {
   display: block;
   max-width: 100%;
   height: auto;
