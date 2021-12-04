@@ -3,7 +3,7 @@
 <symbol id="icon-arrow-btn" viewBox="0 0 19 32">
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l12.8 12.8-12.8 12.8"></path>
 </symbol>
-<symbol id="icon-arrow-btn" viewBox="0 0 19 32">
+<symbol id="icon-arrow-btn-contacts" viewBox="0 0 19 32">
 <path d="M0.773 26.347l10.347-10.347-10.347-10.347c-1.040-1.040-1.040-2.72 0-3.76s2.72-1.040 3.76 0l12.24 12.24c1.040 1.040 1.040 2.72 0 3.76l-12.24 12.24c-1.040 1.040-2.72 1.040-3.76 0-1.013-1.040-1.040-2.747 0-3.787z"></path>
 </symbol>
 <symbol id="icon-burger" viewBox="0 0 46 32">
