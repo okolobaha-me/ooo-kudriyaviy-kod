@@ -3,9 +3,14 @@
   padding-bottom: 57px;
   background-image: linear-gradient(
     to bottom,
-    var(--third-bg-color) 15%,
-    var(--secondary-bg-color) 15%
+    var(--third-bg-color) 8%,
+    var(--secondary-bg-color) 8%
   );
+
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+
   @media screen and (min-width: 768px) {
     padding-top: 60px;
     padding-bottom: 79px;
@@ -36,19 +41,12 @@
   }
 }
 
-.contacts__label {
+.contacts__label-bg{
   margin-bottom: 25px;
-  height: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   width: 80px;
   border-radius: 4px;
-  text-align: center;
-
-  font-weight: 500;
-  font-size: 12px;
-  line-height: calc(22 / 12);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--primary-light-text-color);
   background-color: var(--secondary-accent-bg-color);
 
   .contacts__item:nth-child(2) & {
@@ -56,6 +54,14 @@
     width: 130px;
   }
 }
+
+.contacts__label {
+  line-height: calc(16 / 12);
+  text-transform: uppercase;
+  color: var(--primary-light-text-color);
+  text-align: center;
+}
+
 .contacts__wrapper {
   &::after {
     content: '';
@@ -76,40 +82,30 @@
 
 .contacts__title {
   margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 12px;
+
   line-height: calc(22 / 12);
-  letter-spacing: 0.04em;
 
   color: var(--primary-dark-text-color);
 }
+
 .contacts__text {
-  font-weight: 500;
-  font-size: 12px;
   line-height: calc(18 / 12);
   color: var(--secondary-dark-text-color);
 }
+
 .contacts__days {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: calc(22 / 12);
-  color: var(--primary-dark-text-color);
+  @extend .contacts__title;
+  margin-bottom: 0;
 }
 
 .contacts__time {
-  font-weight: 500;
-  font-size: 12px;
   line-height: calc(22 / 12);
   text-transform: uppercase;
 
   color: var(--title-label-color);
 }
 .contacts__link {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 18px;
-  line-height: calc(18 / 12);
-  color: var(--secondary-dark-text-color);
+  @extend .contacts__text;
 }
 
 // .contacts__btns {
@@ -121,12 +117,17 @@
   align-items: center;
   height: 44px;
   min-width: 161px;
+  margin: 0 auto;
 
   border-radius: 22px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: calc(21 / 16);
+
+  &:not(:last-child){
+    margin-bottom: 10px;
+  }
 }
 
 .contacts__btn--white {
