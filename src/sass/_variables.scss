@@ -1,13 +1,4 @@
-:root {
-  --color-about: red;
-  --color-advantages: green;
-  --color-contacts: blue;
-  --color-reviews: cyan;
-  --color-footer: magenta;
-  --color-gallery: yellow;
-  --color-hero: tomato;
-  --color-products: silver;
-}
+
 :root {
   //шрифты
   --primary-light-text-color: #ffffff;
@@ -32,6 +23,7 @@
   --social-bg-color: #fea5bb;
   //ховер кнопки под вопросом нужно обсуждать
   --hover-btn-color-light: #ecebeb;
+  --hover-btn-color-red: #c7133e;
   //фон моб.меню
   --menu-bg-color: #e17992;
   //фон точек в секции отзывы
