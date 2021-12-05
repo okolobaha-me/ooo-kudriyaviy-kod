@@ -226,6 +226,8 @@
   font-size: 16px;
   line-height: calc(21 / 16);
 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+
   &:not(:last-child){
     margin-bottom: 10px;
   }
@@ -242,11 +244,21 @@
 .contacts__btn--white {
   color: var(--accent-color);
   background-color: var(--third-bg-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-btn-color-light);
+  }
 }
 
 .contacts__btn--red {
   color: var(--primary-light-text-color);
   background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-btn-color-red);
+  }
 }
 
 .contacts__icon {
