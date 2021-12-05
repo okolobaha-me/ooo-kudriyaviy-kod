@@ -1,4 +1,4 @@
-<section class="hero-header">
+<section class="section-hero-header">
   <div class="container">
 
     <!------------header-------------->
@@ -28,16 +28,57 @@
         </ul>
         
       </nav>
-      <button type="button" class="header-btn">Buy now</button>
+      <button type="button" class="header-btn button-white" >Buy now</button>
+      <button class="burger-btn" data-menu-open>
+          <svg class="burger-icon" width="20" height="12">
+            <use href="../src/images/svg/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
+
+       <!--Start mobile menu-->
+
+        <div class="mobile-menu" data-menu>
+          <button class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close__btn-icon" width="14" height="14">
+              <use href="../src/images/svg/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <button type="button" class="mobile-menu__btn button-white">Buy now 
+            <svg class="btn-icon" width="5" height="8">
+              <use href="../src/images/svg/symbol-defs.svg#icon-arrow-btn"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__list">
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link current">Home</a>
+            </ii>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">About us</a>
+            </ii>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">How it’s made?</a>
+            </ii>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">Our products</a>
+            </ii>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">Contact</a>
+            </ii>
+
+          </ul>
+        </div>
+
+        <!--Finish mobile menu-->
+
     </header>
 
       <!------------hero--------------->
 
     <div class="hero-container">
-      <h1 class="hero-title">ice cream made with <span class="logo-item">passion</span> </h1>
+      <h1 class="hero-title">ice cream<br>made with<br><span class="title-item">passion</span> </h1>
       <div class="hero-box-btn">
-        <button type="button" class="hero-btn-dark">Products</button>
-        <button type="button" class="hero-btn-light">How it’s made?</button>
+        <button type="button" class="hero-btn-dark button-red">Products</button>
+        <button type="button" class="hero-btn-light button-white">How it’s made?</button>
       </div>
       <ul class="hero-description-list">
         <li class="hero-description-item">
@@ -49,16 +90,57 @@
           <p class="hero-description-text">food trucks</p>
         </li>
       </ul>
-      <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-      <a href="" class="hero-link">
-        <svg class="link-icon" width="26" height="26">
-          <use href="../src/images/svg/symbol-defs.svg#icon-arrow-right" ></use>
-        </svg>
-      </a>
+      
+      <picture class="hero-contain-image" >
+        <source
+          media="(min-width: 1280px)"
+          srcset="../src/images/hero-header/ice-cream-desktop.webp 1x, ../src/images/hero-header/ice-cream-desktop@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="../src/images/hero-header/ice-cream-desktop.png 1x, ../src/images/hero-header/ice-cream-desktop@2x.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../src/images/hero-header/ice-cream-tablet.webp 1x, ../src/images/hero-header/ice-cream-tablet@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../src/images/hero-header/ice-cream-tablet.png 1x, ../src/images/hero-header/ice-cream-tablet@2x.png 2x "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="../src/images/hero-header/ice-cream.webp 1x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="../src/images/hero-header/ice-cream.png 1x, ../src/images/hero-header/ice-cream@2x.png 2x"
+        />
+        <img  src="#" alt="ice-cream" />
+      </picture>
+      
+      <div class="hero-exposition-box">
+        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        <a href="" class="hero-link">
+          <svg class="link-icon" width="26" height="26">
+            <use href="../src/images/svg/symbol-defs.svg#icon-arrow-right" ></use>
+          </svg>
+        </a>
+      </div>
+      
     </div>
   </div>
-  <div class="hero-decor-box">
-    <img src="../src/images/hero-header/milk-tablet.png" alt="milk">
-    <img src="../src/images/hero-header/girl-tablet.png" alt="milk">
-  </div>
+  <ul class="hero-decor-list">
+    <li class="hero-decor-item> 
+      <img class="hero-decor-image-milk" src="../src/images/hero-header/milk-tablet.png" alt="milk">
+    </li>
+    <li class="hero-decor-item>
+      <img class="hero-decor-image-girl" src="../src/images/hero-header/girl-tablet.png" alt="milk">
+    </li>
+    
+    
+  </ul>
 </section>
