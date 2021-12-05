@@ -29,44 +29,46 @@
         
       </nav>
       <button type="button" class="header-btn button-white" >Buy now</button>
-
+      <button class="burger-btn" data-menu-open>
+          <svg class="burger-icon" width="20" height="12">
+            <use href="../src/images/svg/symbol-defs.svg#icon-burger"></use>
+          </svg>
+        </button>
 
        <!--Start mobile menu-->
 
-
-        <button class="burger-btn" data-menu-open>
-          <svg class="burger-icon" width="20" height="12">
-            <use href="../src/images/svg/menu.svg"></use>
-          </svg>
-        </button>
-        <div class="mobile-menu">
-          <button class="close-btn" data-menu-close>
-            <svg class="close-btn-icon" width="14" height="14">
-              <use href="#"></use>
+        <div class="mobile-menu" data-menu>
+          <button class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close__btn-icon" width="14" height="14">
+              <use href="../src/images/svg/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <button type="button" class="header-btn">Buy now</button>
-          <ul class="header-list">
-            <ii class="header-list-item>
-              <a href="#" class="header-list-link">Home</a>
+          <button type="button" class="mobile-menu__btn button-white">Buy now 
+            <svg class="btn-icon" width="5" height="8">
+              <use href="../src/images/svg/symbol-defs.svg#icon-arrow-btn"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__list">
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link current">Home</a>
             </ii>
-            <ii class="header-list-item>
-              <a href="#" class="header-list-link">About us</a>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">About us</a>
             </ii>
-            <ii class="header-list-item>
-              <a href="#" class="header-list-link">How it’s made?</a>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">How it’s made?</a>
             </ii>
-            <ii class="header-list-item>
-              <a href="#" class="header-list-link">Our products</a>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">Our products</a>
             </ii>
-            <ii class="header-list-item>
-              <a href="#" class="header-list-link">Contact</a>
+            <ii class="mobile-menu__list__item">
+              <a href="#" class="mobile-menu__link">Contact</a>
             </ii>
 
           </ul>
-
-
         </div>
+
+        <!--Finish mobile menu-->
 
     </header>
 

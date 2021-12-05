@@ -2,7 +2,7 @@
   position: relative;
 
   padding-top: 6px;
-  padding-bottom: 160px;
+  
 
   background-color: #ffb8ca;
 
@@ -12,13 +12,12 @@
 
   overflow: hidden;
 }
-.container {
-}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 137px;
+  
 }
 .burger-btn {
   padding: 0;
@@ -36,6 +35,9 @@
 .burger-icon{
   fill: var(--accent-color);
 }
+
+
+
 .header-site-nav {
 }
 .header-logo {
@@ -53,6 +55,97 @@
     display: none;
   }
 }
+
+//----- mobile menu--------//
+.mobile-menu{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+
+  width: 250px;
+  height: 100vh;
+
+  padding-top: 60px;
+
+  background-color: var(--menu-bg-color);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+  transform: translateX(0);
+}
+
+.mobile-menu__close-btn{
+  position: absolute;
+  top: 23px;
+  right: 28px;
+}
+.mobile-menu__btn.button-white{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 19px;
+
+  padding-left: 49px;
+  padding-right: 49px;
+
+  font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+}
+.btn-icon{
+  
+margin-left: 25px;
+}
+.mobile-menu__list{
+  display: flex;
+  flex-direction: column;
+  
+ 
+
+}
+.mobile-menu__list__item{
+  display: block;
+  padding-left: 21px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  border-top: 1px solid #E18298;
+
+  &:last-child{
+    border-bottom: 1px solid #E18298; ;
+  }
+}
+.mobile-menu__link{
+  font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+color: var(--primary-light-text-color);
+  &:hover,
+  &:focus{
+    color: var(--accent-color);
+  }
+  &.current{
+    color: var(--accent-color)
+  }
+}
+
+
+//----- HERO--------//
+
 .hero-container {
 }
 .hero-title {
