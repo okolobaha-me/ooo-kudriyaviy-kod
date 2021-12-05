@@ -1,39 +1,47 @@
-<section class="section-hero-header">
+<section class="section__hero-header">
   <div class="container">
 
     <!------------header-------------->
 
-    <header class="header-container">
-      <nav class="header-site-nav">
+    <header class="header__container">
+      <nav class="header__site__nav">
         <a href="#" class="header-logo">
           <img src="../src/images/hero-header/logo-tablet.png" alt="logo">
         </a>
-        <ul class="header-list">
-          <ii class="header-list-item>
-            <a href="#" class="header-list-link">Home</a>
+        <ul class="header__list">
+          <ii class="header__list__item">
+            <a href="#" class="header__list__link current">Home</a>
           </ii>
-          <ii class="header-list-item>
-            <a href="#" class="header-list-link">About us</a>
+          <ii class="header__list__item">
+            <a href="#" class="header__list__link">About us</a>
           </ii>
-          <ii class="header-list-item>
-            <a href="#" class="header-list-link">How it’s made?</a>
+          <ii class="header__list__item">
+            <a href="#" class="header__list__link">How it’s made?</a>
           </ii>
-          <ii class="header-list-item>
-            <a href="#" class="header-list-link">Our products</a>
+          <ii class="header__list__item">
+            <a href="#" class="header__list__link">Our products</a>
           </ii>
-          <ii class="header-list-item>
-            <a href="#" class="header-list-link">Contact</a>
+          <ii class="header__list__item">
+            <a href="#" class="header__list__link">Contact</a>
           </ii>
 
         </ul>
         
       </nav>
-      <button type="button" class="header-btn button-white" >Buy now</button>
-      <button class="burger-btn" data-menu-open>
+      <div class="header__btn__box">
+        <button class="burger-btn" data-menu-open>
           <svg class="burger-icon" width="20" height="12">
             <use href="../src/images/svg/symbol-defs.svg#icon-burger"></use>
           </svg>
-        </button>
+      </button>
+        <button type="button" class="header-btn button-white" >Buy now
+        <svg class="header-btn__icon" width="5" height="8">
+              <use href="../src/images/svg/symbol-defs.svg#icon-arrow-btn"></use>
+            </svg>
+      </button>
+      
+      </div>
+      
 
        <!--Start mobile menu-->
 
@@ -75,23 +83,26 @@
       <!------------hero--------------->
 
     <div class="hero-container">
-      <h1 class="hero-title">ice cream<br>made with<br><span class="title-item">passion</span> </h1>
-      <div class="hero-box-btn">
-        <button type="button" class="hero-btn-dark button-red">Products</button>
-        <button type="button" class="hero-btn-light button-white">How it’s made?</button>
+      <div class="hero__box">
+        <div class="hero__box__title">
+          <h1 class="hero__title">ice cream<br>made with<br><span class="title-item">passion</span> </h1>
+          <button type="button" class="hero-btn-dark button-red">Products</button>
+          <button type="button" class="hero-btn-light button-white">How it’s made?</button>
+        </div>
+        <ul class="hero__description__list">
+          <li class="hero__description__item">
+            <span class="hero__description__count">16</span>
+            <p class="hero__description__text">cafes</p>
+          </li>
+          <li class="hero-description-item">
+            <span class="hero__description__count">23</span>
+            <p class="hero__description__text">food trucks</p>
+          </li>
+        </ul>
       </div>
-      <ul class="hero-description-list">
-        <li class="hero-description-item">
-          <span class="hero-description-count">16</span>
-          <p class="hero-description-text">cafes</p>
-        </li>
-        <li class="hero-description-item">
-          <span class="hero-description-count">23</span>
-          <p class="hero-description-text">food trucks</p>
-        </li>
-      </ul>
       
-      <picture class="hero-contain-image" >
+      
+      <picture class="hero__contain__image" >
         <source
           media="(min-width: 1280px)"
           srcset="../src/images/hero-header/ice-cream-desktop.webp 1x, ../src/images/hero-header/ice-cream-desktop@2x.webp 2x"
@@ -122,25 +133,24 @@
         <img  src="#" alt="ice-cream" />
       </picture>
       
-      <div class="hero-exposition-box">
-        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-        <a href="" class="hero-link">
-          <svg class="link-icon" width="26" height="26">
+      <div class="hero__exposition__box">
+        <p class="hero__exposition__text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit,<br> sed do eiusmod tempor<br> incididunt ut labore et</p>
+        <button type="button" class="hero__exposition__btn">
+          <svg class="btn__icon" width="6" height="6">
             <use href="../src/images/svg/symbol-defs.svg#icon-arrow-right" ></use>
           </svg>
-        </a>
+        </button>
       </div>
       
     </div>
+    <ul class="hero__decor__list">
+      <li class="hero__decor__item"> 
+        <img class="hero__decor__image-milk" src="../src/images/hero-header/milk-tablet.png" alt="milk">
+      </li>
+      <li class="hero__decor__item">
+        <img class="hero__decor__image-girl" src="../src/images/hero-header/girl-tablet.png" alt="milk">
+      </li>
+    </ul>
   </div>
-  <ul class="hero-decor-list">
-    <li class="hero-decor-item> 
-      <img class="hero-decor-image-milk" src="../src/images/hero-header/milk-tablet.png" alt="milk">
-    </li>
-    <li class="hero-decor-item>
-      <img class="hero-decor-image-girl" src="../src/images/hero-header/girl-tablet.png" alt="milk">
-    </li>
-    
-    
-  </ul>
+  
 </section>
