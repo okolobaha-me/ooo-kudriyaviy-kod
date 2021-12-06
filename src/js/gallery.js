@@ -5,3 +5,6 @@ itemSelector: '.grid-item',
 columnWidth: 200
 });
 
+=======
+});
+>>>>>>> Stashed changes

@@ -1293,6 +1293,7 @@ a {
   }
 }
 
+<<<<<<< Updated upstream
 .gallery {
   height: 430px;
 }
@@ -1310,12 +1311,31 @@ a {
 
 .grid-item--width2 {
   width: 400px;
+=======
+.grid {
+  height: 430px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #fff5f6), color-stop(40%, #ffffff), color-stop(60%, #ffffff));
+  background-image: linear-gradient(to bottom, #fff5f6 40%, #ffffff 40%, #ffffff 60%);
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+.gallery__item {
+  width: 150px;
+>>>>>>> Stashed changes
 }
 
 .grid__img {
   border-radius: 7px;
 }
 
+<<<<<<< Updated upstream
+=======
+.grid-item--width2 {
+  width: 400px;
+}
+
+>>>>>>> Stashed changes
 .customer__reviews {
   background-color: var(--third-bg-color);
 }
