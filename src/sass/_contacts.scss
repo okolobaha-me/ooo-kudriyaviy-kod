@@ -46,6 +46,7 @@
   }
 
 }
+
 .contacts__list {
   margin-bottom: 54px;
 
@@ -93,25 +94,21 @@
 }
 
 .contacts__label-bg{
+  display: inline-block;
   margin-bottom: 25px;
   padding-top: 4px;
   padding-bottom: 4px;
-  width: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
   border-radius: 4px;
   background-color: var(--secondary-accent-bg-color);
 
   .contacts__item:nth-child(2) & {
     background-color: var(--third-accent-bg-color);
-    width: 130px;
   }
 
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
-    width: 73px;
-
-    .contacts__item:nth-child(2) & {
-      width: 138px;
-    }
   }
 
   @media screen and (min-width: 1280px) {
