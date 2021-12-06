@@ -1,22 +1,26 @@
-.grid {
+.gallery {
   height: 430px;
+
+}
+.grid {
   background-image: linear-gradient( 
     to bottom, 
     #fff5f6 40%,
     #ffffff 40%,
     #ffffff 60%
     );
+  padding-right: 20%;
   padding-left: 15%;
-  padding-right: 10%;
 }
-.gallery__item {
-  width: 150px;
-}
-.grid__img {
-  border-radius: 7px;
+.grid__item {
+  width: 200px;
 }
 .grid-item--width2 {
   width: 400px;
+}
+.grid__img {
+  border-radius: 7px;
+
 }
 
 
