@@ -3,6 +3,9 @@
 <symbol id="icon-arrow-btn" viewBox="0 0 19 32">
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l12.8 12.8-12.8 12.8"></path>
 </symbol>
+<symbol id="icon-arrow-btn-contacts" viewBox="0 0 19 32">
+<path d="M0.773 26.347l10.347-10.347-10.347-10.347c-1.040-1.040-1.040-2.72 0-3.76s2.72-1.040 3.76 0l12.24 12.24c1.040 1.040 1.040 2.72 0 3.76l-12.24 12.24c-1.040 1.040-2.72 1.040-3.76 0-1.013-1.040-1.040-2.747 0-3.787z"></path>
+</symbol>
 <symbol id="icon-burger" viewBox="0 0 46 32">
 <path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714M0 16h45.714M0 29.714h45.714"></path>
 </symbol>
@@ -24,5 +27,12 @@
 <symbol id="icon-arrow-right" viewBox="0 0 32 32">
 <path d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z"></path>
 </symbol>
+<symbol id="icon-arrow-btn-contacts" viewBox="0 0 19 32">
+<path d="M0.773 26.347l10.347-10.347-10.347-10.347c-1.040-1.040-1.040-2.72 0-3.76s2.72-1.040 3.76 0l12.24 12.24c1.040 1.040 1.040 2.72 0 3.76l-12.24 12.24c-1.040 1.040-2.72 1.040-3.76 0-1.013-1.040-1.040-2.747 0-3.787z"></path>
+</symbol>
+<symbol id="icon-modal-close" viewBox="0 0 32 32">
+<path d="M26.667 7.303l-1.97-1.97-7.808 7.808-7.808-7.808-1.97 1.97 7.808 7.808-7.808 7.808 1.97 1.97 7.808-7.808 7.808 7.808 1.97-1.97-7.808-7.808 7.808-7.808z"></path>
+</symbol>
+
 </defs>
 </svg>
