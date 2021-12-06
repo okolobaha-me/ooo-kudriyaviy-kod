@@ -1,5 +1,6 @@
 .about {
-  padding: 125px 20px 20px 20px;
+  padding-top: 125px;
+  padding-bottom: 40px;
   text-align: center;
   background-color: var(--secondary-bg-color);
   background-size: contain;
@@ -19,15 +20,10 @@
   }
 }
 .about__subtitle {
-  margin-bottom: 15px;
-  font-family: Titan one;
+  @extend .title-label;
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.04em;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--title-label-color);
   @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 1.15;
@@ -37,54 +33,14 @@
     line-height: 1.13;
   }
 }
-.about__thumb {
-  display: flex;
-  flex-direction: column;
-  @media screen and (min-width: 768px) {
-    justify-content: space-between;
-    flex-direction: row;
-  }
-}
-.about__cards {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 280px;
-  height: 279px;
-  @media screen and (min-width: 768px) {
-    max-width: 340px;
-    height: 339px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  @media screen and (min-width: 1280px) {
-    max-width: 516px;
-    height: 516px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-.about__cards-box {
-  @media screen and (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-  }
-  @media screen and (min-width: 1280px) {
-    margin-left: 74px;
-  }
-}
+
 
 .about__title {
+  @extend .title-label;
   margin-bottom: 26px;
-  font-family: Titan one;
   font-weight: 400;
   font-size: 34px;
   line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
   color: var(--accent-color);
   @media screen and (min-width: 768px) {
     margin-bottom: 50px;
@@ -98,6 +54,50 @@
     line-height: 1.13;
   }
 }
+
+
+.about__thumb {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+      }
+  }
+  
+.about__cards-img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 280px;
+max-height: 279px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 340px;
+    max-height: 339px;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 516px;
+    max-height: 516px;
+  }
+}
+
+
+
+.about__cards-box {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: 74px;
+  }
+}
+
 
 .about__cards-text {
   margin-bottom: 47px;
