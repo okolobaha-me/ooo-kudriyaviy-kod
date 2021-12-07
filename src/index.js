@@ -11,14 +11,19 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
 
+    grabCursor: true,
+    
+    autoplay: {
+       delay: 1800,
+       disableOnInteraction: false,
+    },
+    speed: 350,
 
+  
+    // Disable preloading of all images
+    preloadImages: false,
+    // Enable lazy loading
+    lazy: true,
+
+    
   });
-
-
-    var elem = document.querySelector('.grid');
-    var msnry = new Masonry( elem, {
-    itemSelector: '.grid-item',
-    columnWidth: 150
-   });
-
-
