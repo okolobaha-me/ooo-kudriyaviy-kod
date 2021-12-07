@@ -2,43 +2,64 @@
 <section class="customer__reviews">
   <!--слайдер-->
   <div class="container">
-  <div class="swiper  slider" aria-label="slider reviews">
-<h2 class="visually-hidden">customer reviews</h2>
+    <div class="swiper  slider" aria-label="slider reviews">
+      <h2 class="visually-hidden">customer reviews</h2>
 
-  <!-- оболочка слайдера -->
-  <div class="swiper-wrapper ">
-    <!-- слайды -->
-    <div class="swiper-slide customer__slide">
-     <img
-      data-src="./images/customer-reviews/review1-desktop.png"
-      data-srcset="./images/customer-reviews/review1-desktop@2x.png 2x"
-      class="swiper-lazy customer__photo"
-    >
-      <div class="customer__text-wrapper"> <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p></div>
-      <p class="customer__location">Emily, Los Angeles</p></div>
+      <!-- оболочка слайдера -->
+      <div class="swiper-wrapper ">
+        <!-- слайды -->
+        <div class="swiper-slide customer__slide">
+          <picture class="customer__photo">
+            <source class="swiper-lazy" srcset="./images/customer-reviews/review1-desktop.webp 1x,
+        ./images/customer-reviews/review1-desktop@2x.webp 2x" type="image/webp">
+            <source media="(min-width:1200px)" srcset="./images/customer-reviews/review1-desktop.png 1x,
+        ./images/customer-reviews/review1-desktop@2x.png  2x">
+            <img src="#" alt="Emily">
+          </picture>
 
-      <div class="swiper-slide customer__slide"> <img
-        data-src="/images/customer-reviews/review2-desktop.png"
-        data-srcset="/images/customer-reviews/review2-desktop@2x.png 2x"
-        class="swiper-lazy customer__photo"
-      >
-        <div class="customer__text-wrapper"> <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p></div>
-        <p class="customer__location">Katty, Los Angeles</p></div>
+          <div class="customer__text-wrapper">
+            <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In
+              hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+          </div>
+          <p class="customer__location">Emily, Los Angeles</p>
+        </div>
 
-        <div class="swiper-slide customer__slide"> <img
-          data-src="/images/customer-reviews/review3-desktop.png 1x"
-          data-srcset="/images/customer-reviews/review3-desktop@2x.png 2x"
-          class="swiper-lazy customer__photo"
-        >
-          <div class="customer__text-wrapper"> <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p></div>
-         <div class="customer__location"><p class="customer__location-text">Sally, Los Angeles</p></div> </div>     
+        <div class="swiper-slide customer__slide">
+          <picture class="customer__photo">
+            <source class="swiper-lazy" srcset="./images/customer-reviews/review2-desktop.webp 1x,
+        ./images/customer-reviews/review2-desktop@2x.webp 2x" type="image/webp">
+            <source media="(min-width:1200px)" srcset="./images/customer-reviews/review2-desktop.png 1x,
+        ./images/customer-reviews/review2-desktop@2x.png  2x">
+            <img src="#" alt="Katty">
+          </picture>
+
+          <div class="customer__text-wrapper">
+            <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In
+              hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+          </div>
+          <p class="customer__location">Katty, Los Angeles</p>
+        </div>
+
+        <div class="swiper-slide customer__slide">
+          <picture class="customer__photo">
+            <source class="swiper-lazy" srcset="./images/customer-reviews/review3-desktop.webp 1x,
+          ./images/customer-reviews/review3-desktop@2x.webp 2x" type="image/webp">
+            <source media="(min-width:1200px)" srcset="./images/customer-reviews/review3-desktop.png 1x,
+          ./images/customer-reviews/review3-desktop@2x.png  2x">
+            <img src="#" alt="Sally">
+          </picture>
+          <div class="customer__text-wrapper">
+            <p class="customer__text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In
+              hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+          </div>
+          <div class="customer__location">
+            <p class="customer__location-text">Sally, Los Angeles</p>
+          </div>
+        </div>
+      </div>
+      <!-- пагинация -->
+      <div class="swiper-pagination"></div>
+
+    </div>
   </div>
-  <!-- пагинация -->
-  <div class="swiper-pagination"></div>
-
-</div></div>
 </section>
-
-
-
- 
