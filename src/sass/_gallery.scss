@@ -1,3 +1,17 @@
-.gallery {
-  color: var(--color-gallery);
+.grid {
+  display: none;
+
+  height: 430px;
+  background-image: linear-gradient(to bottom, #fff5f6 40%, #ffffff 40%, #ffffff 60%);
+  padding-left: 15%;
+  padding-right: 10%;
+}
+.gallery__item {
+  width: 150px;
+}
+.grid__img {
+  border-radius: 7px;
+}
+.grid-item--width2 {
+  width: 400px;
 }
