@@ -13,10 +13,10 @@ const swiper = new Swiper('.swiper', {
     grabCursor: true,
     
     autoplay: {
-       delay: 1000,
+       delay: 1800,
        disableOnInteraction: false,
     },
-    speed: 500,
+    speed: 350,
 
   
     // Disable preloading of all images
