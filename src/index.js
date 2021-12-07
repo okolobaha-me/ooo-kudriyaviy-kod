@@ -9,9 +9,20 @@ const swiper = new Swiper('.swiper', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-    
     },
-  
+    grabCursor: true,
+    
+    autoplay: {
+       delay: 1000,
+       disableOnInteraction: false,
+    },
+    speed: 500,
 
-  });
   
+    // Disable preloading of all images
+    preloadImages: false,
+    // Enable lazy loading
+    lazy: true,
+
+    
+  });
