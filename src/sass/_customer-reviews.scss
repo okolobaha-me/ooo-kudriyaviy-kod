@@ -13,11 +13,6 @@
   }
 }
 
-.customer__slide{
-  width: 100%;
-  overflow: hidden;
-}
-
 .slider{
 max-width: 280px;
 text-align: center;
@@ -95,6 +90,18 @@ max-width:620px ;
   font-size: 14px;
   line-height: 1.86;
   color:var(--primary-dark-text-color);
+  &::before{
+    content: "";
+    display:block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/svg/dotes-red.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:32px ;
+    height: 4px;
+  }
   
   @media screen and (min-width:768px){
     font-size: 16px;

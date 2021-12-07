@@ -10,6 +10,9 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-pagination',
       clickable: true,
     },
+    touchRatio:1,
+    
+
 
     grabCursor: true,
     
@@ -20,10 +23,23 @@ const swiper = new Swiper('.swiper', {
     speed: 350,
 
   
-    // Disable preloading of all images
+    //управлениес клавиатуры 
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+      pageUpDown: true,
+    },
+    mousewheel: {
+      sensitivity: 1,
+    
+    },
     preloadImages: false,
-    // Enable lazy loading
-    lazy: true,
+    lazy: {
+      loadOnTransitionStart: true,
+      loadPrevNext: true,
+
+    },
+
 
     
   });
