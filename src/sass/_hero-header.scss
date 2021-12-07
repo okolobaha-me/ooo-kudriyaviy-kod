@@ -3,7 +3,7 @@
   padding-top: 6px;
   margin: 0 auto;
   height: 502px;
-  max-width: 1600px;
+  
 
   background-color: #ffb8ca;
   
@@ -153,15 +153,24 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-   
-}
-
-.mobile-menu.is-open {
+  &.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
   transform: translateX(0);
+  }
+  &.is-open ~ .header__btn__box{
+    @media screen and (min-width:768px) and (max-width:1279px){
+      display: none;
+    }
+  }
+  
+  
 }
+   
+
+
+
 
 .mobile-menu__close-btn{
   position: absolute;
@@ -177,8 +186,7 @@
   margin: 0 auto;
   margin-bottom: 19px;
 
-  padding-left: 49px;
-  padding-right: 49px;
+  padding: 11px 49px;
 
   font-weight: bold;
   font-size: 16px;
@@ -575,9 +583,7 @@ color: var(--primary-light-text-color);
     display: none;
   }
 }
-.hero__decor__item{
 
-}
 .hero__decor__image-milk {
     position: absolute;
     left: 20px;
@@ -595,9 +601,19 @@ color: var(--primary-light-text-color);
 
 .hero__decor__image-girl {
     position: absolute;
-    bottom:  -38px;
+    bottom:  -43px;
     right: 20px;
     z-index: 8;
+    animation: move 1500ms linear, 1 ;
+    @keyframes move {
+      from{
+        transform: translateY(100%);
+      }
+      to{
+        transform: translateX(0%);
+      }
+      
+    }
 
     @media screen and (max-width: 767px) {
     display: none;
