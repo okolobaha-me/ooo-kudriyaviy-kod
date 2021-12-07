@@ -22,6 +22,9 @@
 .container{
   position: relative;
 }
+.hero__pre-title{
+  display: none;
+}
 
 .header__container {
   display: flex;
@@ -72,9 +75,14 @@
   }
 }
 .header__list {
-  margin-left: 240px;
+  
+  
   @media screen and (max-width: 1279px) {
     display: none;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    margin-left: 240px;
   }
 }
 .header__item  {
@@ -604,7 +612,7 @@ color: var(--primary-light-text-color);
     bottom:  -43px;
     right: 20px;
     z-index: 8;
-    animation: move 1500ms linear, 1 ;
+    animation: move 500ms linear;
     @keyframes move {
       from{
         transform: translateY(100%);
