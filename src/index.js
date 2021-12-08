@@ -22,3 +22,26 @@ const swiper = new Swiper('.swiper', {
     },
     speed: 350,
 
+
+    
+ 
+    //управлениес клавиатуры 
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+      pageUpDown: true,
+    },
+    mousewheel: {
+      sensitivity: 1,
+    
+    },
+    preloadImages: false,
+    lazy: {
+      loadOnTransitionStart: true,
+      loadPrevNext: true,
+
+    },
+
+
+    
+  });
