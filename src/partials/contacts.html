@@ -67,13 +67,23 @@
       </li>
     </ul>
     <div class="contacts__btns">
-      <button class="contacts__btn contacts__btn--red" type="button" data-contacts-modal-open>
+      <button
+        aria-label="Open modal with our location"
+        class="contacts__btn contacts__btn--red"
+        type="button"
+        data-contacts-modal-open
+      >
         Our Locations
-        <svg class="contacts__icon ">
+        <svg class="contacts__icon">
           <use href="./images/svg/symbol-defs.svg#icon-arrow-btn-contacts"></use>
         </svg>
       </button>
-      <button class="contacts__btn contacts__btn--white" type="button" data-contacts-fr-modal-open>
+      <button
+        aria-label="Open modal with franchise"
+        class="contacts__btn contacts__btn--white"
+        type="button"
+        data-contacts-fr-modal-open
+      >
         Franchise
         <svg class="contacts__icon">
           <use href="./images/svg/symbol-defs.svg#icon-arrow-btn-contacts"></use>
@@ -83,28 +93,47 @@
   </div>
 </section>
 <div class="backdrop is-hidden" data-contacts-modal>
-  <div class="modal" >
-    <button class="modal__btn--close" data-contacts-modal-close>
+  <div class="modal">
+    <button aria-label="Close" class="modal__btn--close" data-contacts-modal-close>
       <svg class="modal__icon--close">
         <use href="./images/svg/symbol-defs.svg#icon-modal-close"></use>
       </svg>
     </button>
     <h2 class="section-title modal__title">Our Locations</h2>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46220.16406762384!2d-84.79602102089841!3d43.61153320000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88221cb850aa6ad9%3A0xa940c60a6618d1b0!2sDoozie%E2%80%99s%20Ice%20Cream%20Place!5e0!3m2!1sru!2sua!4v1638793206649!5m2!1sru!2sua" referrerpolicy="no-referrer" allowfullscreen="" loading="lazy"></iframe> 
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46220.16406762384!2d-84.79602102089841!3d43.61153320000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88221cb850aa6ad9%3A0xa940c60a6618d1b0!2sDoozie%E2%80%99s%20Ice%20Cream%20Place!5e0!3m2!1sru!2sua!4v1638793206649!5m2!1sru!2sua"
+      referrerpolicy="no-referrer"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
   </div>
 </div>
-<div class="backdrop is-hidden" data-contacts-fr-modal >
-  <div class="modal" >
-    <button class="modal__btn--close" data-contacts-fr-modal-close >
+<div class="backdrop is-hidden" data-contacts-fr-modal>
+  <div class="modal">
+    <button aria-label="Close" class="modal__btn--close" data-contacts-fr-modal-close>
       <svg class="modal__icon--close">
         <use href="./images/svg/symbol-defs.svg#icon-modal-close"></use>
       </svg>
     </button>
     <h2 class="section-title modal__title">Franchise</h2>
-    <p class="contacts__franchise">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt veniam, odit doloremque quis!</p>
-    <p class="contacts__franchise">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt veniam, odit doloremque quis!</p>
-    <p class="contacts__franchise">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt veniam, odit doloremque quis!</p>
+    <p class="contacts__franchise">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime
+      eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla
+      dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt
+      veniam, odit doloremque quis!
+    </p>
+    <p class="contacts__franchise">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime
+      eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla
+      dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt
+      veniam, odit doloremque quis!
+    </p>
+    <p class="contacts__franchise">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus tempora veniam maxime
+      eligendi eius nihil ipsam eaque magni dicta rerum et vel nam officia ea sunt perferendis nulla
+      dolore similique, error accusamus pariatur? Nesciunt, commodi corporis. Rem culpa deserunt
+      veniam, odit doloremque quis!
+    </p>
   </div>
 </div>
-
-
