@@ -199,9 +199,9 @@
 .products__thumb:nth-child(1) .products__card::before {
   background-image: url(../images/products/product1.png);
 
-  //@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //  background-image: url('../images/products/product1@2x.png');
-  //}
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../images/products/product1@2x.png');
+  }
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/products/product1-tablet.png);
@@ -228,9 +228,9 @@
 .products__thumb:nth-child(2) .products__card::before {
   background-image: url(../images/products/product2.png);
 
-  //@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //  background-image: url('../images/products/product2@2x.png');
-  //}
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../images/products/product2@2x.png');
+  }
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/products/product2-tablet.png);
@@ -257,9 +257,9 @@
 .products__thumb:nth-child(3) .products__card::before {
   background-image: url(../images/products/product3.png);
 
-  //@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //  background-image: url('../images/products/product3@2x.png');
-  //}
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../images/products/product3@2x.png');
+  }
 
   @media screen and (min-width: 768px) {
     background-image: url(../images/products/product3-tablet.png);
