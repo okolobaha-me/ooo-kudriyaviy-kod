@@ -22,7 +22,9 @@ const swiper = new Swiper('.swiper', {
     },
     speed: 350,
 
-  
+
+    
+ 
     //управлениес клавиатуры 
     keyboard: {
       enabled: true,
