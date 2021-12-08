@@ -3,11 +3,19 @@
 
   grid-template-columns: repeat(21, 1fr);
   grid-template-rows: repeat(9, 1fr);
-  grid-gap: 8px;
+  grid-gap: 3px;
 
   &__img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    grid-gap: 5px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    grid-gap: 8px;
   }
 }
 
@@ -19,10 +27,14 @@
 
 .masonry-gallery__item {
   position: relative;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   width: 100%;
   padding-bottom: 100%;
+
+  @media screen and (min-width: 768px) {
+    border-radius: 10px;
+  }
 }
 
 .masonry-gallery__img {
