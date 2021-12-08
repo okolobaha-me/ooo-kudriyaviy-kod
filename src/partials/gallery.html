@@ -1,26 +1,92 @@
-<div class="container-gallery">
-    <div class="grid">
-        <div class="grid-item grid__element"> 
-            <img src="./images/gallery/1.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-        <div class="grid-item grid__element-first"> 
-            <img src="./images/gallery/2.jpg" alt="ice cream" class="grid__img"/>
-            <img src="./images/gallery/3.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-        <div class="grid-item grid-item--width2"> 
-            <img src="./images/gallery/4.jpg" alt="ice cream" class="grid__img grid__image"/>
-            <img src="./images/gallery/5.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-        <div class="grid-item grid__element-second"> 
-            <img src="./images/gallery/6.jpg" alt="ice cream" class="grid__img"/>
-            <img src="./images/gallery/7.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-        <div class="grid-item grid__element-first"> 
-            <img src="./images/gallery/8.jpg" alt="ice cream" class="grid__img"/>
-            <img src="./images/gallery/9.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-        <div class="grid-item grid__element"> 
-            <img src="./images/gallery/10.jpg" alt="ice cream" class="grid__img"/>
-        </div>
-    </div>
-</div>
+<section class="gallery">
+  <div class="container">
+    <ul class="masonry-gallery">
+      <li class="gutter-width"></li>
+      <li>
+        <img
+          src="./images/gallery/1.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/2.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/3.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size test"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/4.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/5.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/6.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/7.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/8.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/9.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+      <li>
+        <img
+          src="./images/gallery/10.jpg"
+          alt="ice cream"
+          class="masonry-gallery__item persent-size"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script>
+  jQuery(document).ready(function ($) {
+    $('.masonry-gallery').masonry({
+      // options
+      itemSelector: '.masonry-gallery__item',
+      columnWidth: '.persent-size',
+      gutter: '.gutter-width',
+      percentPosition: true,
+    });
+  });
+</script>

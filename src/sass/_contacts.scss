@@ -12,39 +12,30 @@
     padding-bottom: 79px;
 
     background-image: linear-gradient(
-    to bottom,
-    var(--third-bg-color) 16%,
-    var(--secondary-bg-color) 16%
-  );
+      to bottom,
+      var(--third-bg-color) 16%,
+      var(--secondary-bg-color) 16%
+    );
   }
 
   @media screen and (min-width: 1280px) {
     padding-top: 66px;
     padding-bottom: 83px;
 
-    background-image: url("../images/contacts/bg-pots.png"),
-    linear-gradient(
-    to bottom,
-    var(--third-bg-color) 20%,
-    var(--secondary-bg-color) 20%
-  );
-  
+    background-image: url('../images/contacts/bg-pots.png'),
+      linear-gradient(to bottom, var(--third-bg-color) 20%, var(--secondary-bg-color) 20%);
+
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 
     @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    background-image: url("../images/contacts/bg-pots@2x.png"),
-    linear-gradient(
-    to bottom,
-    var(--third-bg-color) 20%,
-    var(--secondary-bg-color) 20%
-  );
-}
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../images/contacts/bg-pots@2x.png'),
+        linear-gradient(to bottom, var(--third-bg-color) 20%, var(--secondary-bg-color) 20%);
+    }
   }
-
 }
 
 .contacts__list {
@@ -73,7 +64,7 @@
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 20px;
     }
@@ -90,10 +81,10 @@
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
-  } 
+  }
 }
 
-.contacts__label-bg{
+.contacts__label-bg {
   display: inline-block;
   margin-bottom: 25px;
   padding-top: 4px;
@@ -124,7 +115,7 @@
 
   @media screen and (min-width: 768px) {
     font-size: 16px;
-    line-height: calc(20 / 16)
+    line-height: calc(20 / 16);
   }
 }
 
@@ -147,12 +138,12 @@
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
-    line-height: calc(26 / 11)
+    line-height: calc(26 / 11);
   }
 
   @media screen and (min-width: 1280px) {
     font-size: 16px;
-    line-height: calc(30 / 16)
+    line-height: calc(30 / 16);
   }
 }
 
@@ -162,12 +153,12 @@
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
-    line-height: calc(23 / 11)
+    line-height: calc(23 / 11);
   }
-  
+
   @media screen and (min-width: 1280px) {
     font-size: 16px;
-    line-height: calc(29 / 16)
+    line-height: calc(29 / 16);
   }
 }
 
@@ -190,12 +181,12 @@
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
-    line-height: calc(26 / 11)
+    line-height: calc(26 / 11);
   }
 
   @media screen and (min-width: 1280px) {
     font-size: 16px;
-    line-height: calc(30 / 16)
+    line-height: calc(30 / 16);
   }
 }
 .contacts__link {
@@ -223,16 +214,16 @@
   font-size: 16px;
   line-height: calc(21 / 16);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 10px;
   }
 
   @media screen and (min-width: 768px) {
     margin: 0;
 
-    &:not(:last-child){
+    &:not(:last-child) {
       margin-right: 15px;
     }
   }
@@ -262,9 +253,8 @@
   width: 6px;
   height: 10px;
   margin-left: 10px;
-  fill: currentColor; 
+  fill: currentColor;
 }
-
 
 .map {
   width: 100%;
@@ -272,17 +262,12 @@
   border: 0;
 }
 
-.contacts__franchise{
+.contacts__franchise {
   font-size: 14px;
   color: var(--primary-dark-text-color);
   line-height: calc(22 / 14);
 
-
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-bottom: 20px;
   }
 }
-
-
-  
-
