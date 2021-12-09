@@ -90,18 +90,8 @@ max-width:620px ;
   font-size: 14px;
   line-height: 1.86;
   color:var(--primary-dark-text-color);
-  &::before{
-    content: "";
-    display:block;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(/images/svg/dotes-red.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width:32px ;
-    height: 4px;
-  }
+  padding-top: 15px;
+  padding-bottom: 35px;
   
   @media screen and (min-width:768px){
     font-size: 16px;
@@ -112,7 +102,17 @@ max-width:620px ;
  
   }
   .customer__location{
-    height: 89px;
+    min-height: 89px;
+    &::before{
+      content: "";
+      display: inline-block;
+      text-align: center;
+      background-image: url(/images/svg/dotes-red.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width:32px ;
+      height: 4px;
+    }
   }
   .swiper-pagination-bullet {
   
