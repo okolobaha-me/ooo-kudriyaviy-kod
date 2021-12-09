@@ -1,98 +1,189 @@
-<section class="gallery">
+<section class="section-gallery">
+  <div class="container">
+    <h2 class="visually-hidden">Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+          <picture>
+              <source srcset="./images/gallery/img1.webp 1x, ./images/gallery/img1@2x.webp 2x" type="image/webp" 
+              media="(min-width: 768px)"/>
+              <source srcset="./images/gallery/img1-min.jpg 1x, ./images/gallery/img1@2x-min.jpg 2x" type="image/jpeg" 
+              media="(min-width: 1280px)"/>
+              <img src="./images/gallery/img1-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          </picture>
+        </div>
+        <div class="gallery-item">
+          <picture>
+              <source srcset="./images/gallery/img2.webp 1x, ./images/gallery/img2@2x.webp 2x" type="image/webp" 
+              media="(min-width: 768px)"/>
+              <source srcset="./images/gallery/img2-min.jpg 1x, ./images/gallery/img2@2x-min.jpg 2x" type="image/jpeg" 
+              media="(min-width: 1280px)"/>
+              <img src="./images/gallery/img2-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          </picture>
+        <picture>
+            <source srcset="/images/gallery/img3.webp 1x, ./images/gallery/img3@2x.webp 2x" type="image/webp" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/gallery/img3-min.jpg 1x, ./images/gallery/img3@2x-min.jpg 2x" type="image/jpeg" 
+            media="(min-width: 1280px)"/>
+            <img src="./images/gallery/img3-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+        </div>
+        <div class="gallery-item">
+        <picture>
+            <source srcset="/images/gallery/img4.webp 1x, ./images/gallery/img4@2x.webp 2x" type="image/webp" 
+            media="(min-width: 768px)"/>
+            <source srcset="./images/gallery/img4-min.jpg 1x, ./images/gallery/img4@2x-min.jpg 2x" type="image/jpeg" 
+            media="(min-width: 1280px)"/>
+            <img src="./images/gallery/img4-min.jpg" alt="ice cream" class="masonry-gallery__img masonry-gallery__image" loading="lazy"/>
+        </picture>
+        <picture>
+          <source srcset="/images/gallery/img5.webp 1x, ./images/gallery/img5@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img5-min.jpg 1x, ./images/gallery/img5@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img5-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+      </div>
+      <div class="gallery-item gallery-item__element">
+        <picture>
+          <source srcset="/images/gallery/img6.webp 1x, ./images/gallery/img6@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img6-min.jpg 1x, ./images/gallery/img6@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img6-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+        <picture>
+          <source srcset="/images/gallery/img7.webp 1x, ./images/gallery/img7@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img7-min.jpg 1x, ./images/gallery/img7@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img7-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+      </div>
+      <div class="gallery-item">
+        <picture>
+          <source srcset="/images/gallery/img8.webp 1x, ./images/gallery/img8@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img8-min.jpg 1x, ./images/gallery/img8@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img8-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+        <picture>
+          <source srcset="/images/gallery/img9.webp 1x, ./images/gallery/img9@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img9-min.jpg 1x, ./images/gallery/img9@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img9-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture>
+      </div>
+      <div class="gallery-item">
+        <picture>
+          <source srcset="/images/gallery/img10.webp 1x, ./images/gallery/img10@2x.webp 2x" type="image/webp" 
+          media="(min-width: 768px)"/>
+          <source srcset="./images/gallery/img10-min.jpg 1x, ./images/gallery/img10@2x-min.jpg 2x" type="image/jpeg" 
+          media="(min-width: 1280px)"/>
+          <img src="./images/gallery/img10-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+        </picture> 
+      </div>  
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="gallery">
   <div class="container">
     <ul class="masonry-gallery">
       <li class="masonry-gallery__item">
           <picture>
-              <source srcset="./images/gallery/1-min.webp 1x, ./images/gallery/1-min.webp 2x" type="image/webp" 
+              <source srcset="./images/gallery/img1.webp 1x, ./images/gallery/img1@2x.webp 2x" type="image/webp" 
               media="(min-width: 768px)"/>
-              <source srcset="./images/gallery/1-min.jpg 1x, ./images/gallery/1-min.jpg 2x" type="image/jpeg" 
+              <source srcset="./images/gallery/img1-min.jpg 1x, ./images/gallery/img1@2x-min.jpg 2x" type="image/jpeg" 
               media="(min-width: 1280px)"/>
-              <img src="./images/gallery/1-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+              <img src="./images/gallery/img1-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
           </picture>
         </li>
-      <li class="masonry-gallery__item">
+     <li class="masonry-gallery__item">
           <picture>
-              <source srcset="./images/gallery/2-min.webp 1x, ./images/gallery/2-min.webp 2x" type="image/webp" 
+              <source srcset="./images/gallery/img2.webp 1x, ./images/gallery/img2@2x.webp 2x" type="image/webp" 
               media="(min-width: 768px)"/>
-              <source srcset="./images/gallery/2-min.jpg 1x, ./images/gallery/2-min.jpg 2x" type="image/jpeg" 
+              <source srcset="./images/gallery/img2-min.jpg 1x, ./images/gallery/img2@2x-min.jpg 2x" type="image/jpeg" 
               media="(min-width: 1280px)"/>
-              <img src="./images/gallery/2-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+              <img src="./images/gallery/img2-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
           </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-            <source srcset="./images/gallery/3-min.webp 1x, ./images/gallery/3-min.webp 2x" type="image/webp" 
+            <source srcset="/images/gallery/img3.webp 1x, ./images/gallery/img3@2x.webp 2x" type="image/webp" 
             media="(min-width: 768px)"/>
-            <source srcset="./images/gallery/3-min.jpg 1x, ./images/gallery/3-min.jpg 2x" type="image/jpeg" 
+            <source srcset="./images/gallery/img3-min.jpg 1x, ./images/gallery/img3@2x-min.jpg 2x" type="image/jpeg" 
             media="(min-width: 1280px)"/>
-            <img src="./images/gallery/3-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+            <img src="./images/gallery/img3-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-            <source srcset="./images/gallery/4-min.webp 1x, ./images/gallery/4-min.webp 2x" type="image/webp" 
+            <source srcset="/images/gallery/img4.webp 1x, ./images/gallery/img4@2x.webp 2x" type="image/webp" 
             media="(min-width: 768px)"/>
-            <source srcset="./images/gallery/4-min.jpg 1x, ./images/gallery/4-min.jpg 2x" type="image/jpeg" 
+            <source srcset="./images/gallery/img4-min.jpg 1x, ./images/gallery/img4@2x-min.jpg 2x" type="image/jpeg" 
             media="(min-width: 1280px)"/>
-            <img src="./images/gallery/4-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+            <img src="./images/gallery/img4-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/5-min.webp 1x, ./images/gallery/5-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img5.webp 1x, ./images/gallery/img5@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/5-min.jpg 1x, ./images/gallery/5-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img5-min.jpg 1x, ./images/gallery/img5@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/5-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          <img src="./images/gallery/img5-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/6-min.webp 1x, ./images/gallery/6-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img6.webp 1x, ./images/gallery/img6@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/6-min.jpg 1x, ./images/gallery/6-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img6-min.jpg 1x, ./images/gallery/img6@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/6-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          <img src="./images/gallery/img6-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/7-min.webp 1x, ./images/gallery/7-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img7.webp 1x, ./images/gallery/img7@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/7-min.jpg 1x, ./images/gallery/7-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img7-min.jpg 1x, ./images/gallery/img7@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/7-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          <img src="./images/gallery/img7-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/8-min.webp 1x, ./images/gallery/8-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img8.webp 1x, ./images/gallery/img8@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/8-min.jpg 1x, ./images/gallery/8-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img8-min.jpg 1x, ./images/gallery/img8@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/8-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          <img src="./images/gallery/img8-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/9-min.webp 1x, ./images/gallery/9-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img9.webp 1x, ./images/gallery/img9@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/9-min.jpg 1x, ./images/gallery/9-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img9-min.jpg 1x, ./images/gallery/img9@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/9-min.jpg" alt="ice cream" />
+          <img src="./images/gallery/img9-min.jpg" alt="ice cream" />
         </picture>
       </li>
       <li class="masonry-gallery__item">
         <picture>
-          <source srcset="./images/gallery/10-min.webp 1x, ./images/gallery/10-min.webp 2x" type="image/webp" 
+          <source srcset="/images/gallery/img10.webp 1x, ./images/gallery/img10@2x.webp 2x" type="image/webp" 
           media="(min-width: 768px)"/>
-          <source srcset="./images/gallery/10-min.jpg 1x, ./images/gallery/10-min.jpg 2x" type="image/jpeg" 
+          <source srcset="./images/gallery/img10-min.jpg 1x, ./images/gallery/img10@2x-min.jpg 2x" type="image/jpeg" 
           media="(min-width: 1280px)"/>
-          <img src="./images/gallery/10-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
+          <img src="./images/gallery/img10-min.jpg" alt="ice cream" class="masonry-gallery__img" loading="lazy"/>
         </picture>
       </li>   
     </ul>
   </div>
 </section>
 
-
+ -->
