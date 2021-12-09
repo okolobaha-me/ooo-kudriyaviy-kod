@@ -1609,7 +1609,6 @@ a {
 
 @media screen and (min-width: 768px) {
   .section-gallery {
-    width: 768px;
     height: 264px;
   }
 }
