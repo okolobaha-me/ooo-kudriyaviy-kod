@@ -1605,7 +1605,6 @@ a {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff5f6), color-stop(50%, #ffffff), color-stop(50%, #ffffff));
   background-image: linear-gradient(to bottom, #fff5f6 50%, #ffffff 50%, #ffffff 50%);
   padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1643,15 +1642,39 @@ a {
 }
 
 .masonry-gallery__img {
-  width: 120px;
+  width: 41px;
   border-radius: 7px;
   margin-bottom: 5px;
 }
 
+@media screen and (min-width: 768px) {
+  .masonry-gallery__img {
+    width: 88px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .masonry-gallery__img {
+    width: 120px;
+  }
+}
+
 .masonry-gallery__image {
-  width: 290px;
+  width: 81px;
   border-radius: 7px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .masonry-gallery__image {
+    width: 176px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .masonry-gallery__image {
+    width: 290px;
+  }
 }
 
 .customer__reviews {
